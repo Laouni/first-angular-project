@@ -37,3 +37,65 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# Environment Configuration
+.env
+
+# Build output folders
+build/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git-
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+# IntelliJ IDE ignore
+.idea
+*.iml
+
+# Visual Studio Code
+.vscode
+
+# Flow Coverage Report
+flow-coverage/
+
+# Happypack (legacy)
+.happypack
+
+# JS Documentation
+doc-html/
+
+# SASS Styleguide
+/styleguide/
+
+# Local configuration
+config/local.json
+
+# Acceptance shots
+acceptance/errorShots
+
+# Caching
+.webpack_cache
+
+# MAC OS X file
+.DS_Store
+
+*.orig
+
